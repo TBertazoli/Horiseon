@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+html, body {
+    height: 100%;
+}
+
 /*apply styles to the element body*/
 body {
     background-color: #d9dcd6;
@@ -67,6 +71,10 @@ p {
 
 /*Hero Style end*/
 
+.main-section {
+    display: flex;
+}
+
 /* class contents style start*/
 .float-left {
     float: left;
@@ -83,7 +91,6 @@ p {
     display: inline-block;
     padding: 0 20px 20px 20px;
 } 
-
 
 .content-box {
     margin-bottom: 20px;
@@ -108,17 +115,16 @@ p {
 /* class benefits style start*/
 
 .benefits {    
-    width: 25%;
-    height: 100%; 
-    clear: both;
-    float: right;
-}
+    width: 25%; 
+    padding-bottom: 40px;
+    }
 
 .benefits-wraper {
     margin-right: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-    padding: 20px;
+    padding: 40px;
+    height: 100%;
 }
 
 .benefit {
